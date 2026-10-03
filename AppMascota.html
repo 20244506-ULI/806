@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-container": "#eaedff", "error-container": "#ffdad6", "surface-bright": "#faf8ff", "primary-fixed": "#6ffbbe", "tertiary-fixed": "#ffdad7", "on-tertiary-fixed-variant": "#930013", "primary-fixed-dim": "#4edea3", "on-surface-variant": "#3c4a42", "on-primary-fixed": "#002113", "on-tertiary-fixed": "#410004", "tertiary-fixed-dim": "#ffb3ad", "on-tertiary": "#ffffff", "surface-dim": "#d2d9f4", "on-error-container": "#93000a", "surface-container-low": "#f2f3ff", "surface-container-high": "#e2e7ff", "surface-container-highest": "#dae2fd", "secondary-container": "#fea619", "surface-variant": "#dae2fd", "on-surface": "#131b2e", "tertiary": "#b91a24", "on-primary": "#ffffff", "surface-tint": "#006c49", "on-tertiary-container": "#79000e", "error": "#ba1a1a", "inverse-primary": "#4edea3", "on-primary-fixed-variant": "#005236", "outline": "#6c7a71", "secondary-fixed-dim": "#ffb95f", "secondary": "#855300", "on-secondary-container": "#684000", "on-background": "#131b2e", "on-secondary-fixed": "#2a1700", "tertiary-container": "#ff7a73", "on-secondary-fixed-variant": "#653e00", "inverse-on-surface": "#eef0ff", "inverse-surface": "#283044", "on-primary-container": "#00422b", "on-secondary": "#ffffff", "background": "#faf8ff", "primary-container": "#10b981", "surface-container-lowest": "#ffffff", "surface": "#faf8ff", "primary": "#006c49", "on-error": "#ffffff", "secondary-fixed": "#ffddb8", "outline-variant": "#bbcabf" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "margin": "1rem", "space-xs": "0.25rem", "space-xl": "2.25rem", "gutter-tablet": "1.5rem", "space-sm": "0.5rem", "space-lg": "1.5rem", "gutter": "1rem", "margin-desktop": "3rem", "gutter-desktop": "2rem", "margin-tablet": "2rem", "space-md": "1rem" }, "fontFamily": { "body-lg": ["Be Vietnam Pro"], "body-md": ["Be Vietnam Pro"], "label-sm": ["Plus Jakarta Sans"], "body-sm": ["Be Vietnam Pro"], "label-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display": ["Plus Jakarta Sans"] }, "fontSize": { "body-lg": ["1.0625rem", { "lineHeight": "1.6", "letterSpacing": "0", "fontWeight": "400" }], "body-md": ["0.9375rem", { "lineHeight": "1.55", "letterSpacing": "0", "fontWeight": "400" }], "label-sm": ["0.6875rem", { "lineHeight": "1.2", "letterSpacing": "0.04em", "fontWeight": "700" }], "body-sm": ["0.8125rem", { "lineHeight": "1.5", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-lg": ["0.9375rem", { "lineHeight": "1.3", "letterSpacing": "0.01em", "fontWeight": "600" }], "label-md": ["0.8125rem", { "lineHeight": "1.25", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-sm": ["1.125rem", { "lineHeight": "1.4", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["1.375rem", { "lineHeight": "1.35", "letterSpacing": "-0.015em", "fontWeight": "700" }], "headline-lg": ["2.25rem", { "lineHeight": "1.25", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg-mobile": ["1.75rem", { "lineHeight": "1.25", "letterSpacing": "-0.02em", "fontWeight": "700" }], "display": ["3rem", { "lineHeight": "1.15", "letterSpacing": "-0.03em", "fontWeight": "800" }] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface flex flex-col min-h-screen antialiased selection:bg-primary-fixed selection:text-on-primary-fixed"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="PawPulse Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U2GhgpESTFMosAa39sFsaZifIFfCOl_vIPKQhBGAiV8A_qFLYTtKOXYqlxBV-9DNIkrSEsfGOaLyYPVBuWzd-1d-42Das9NZXnUpGpFjUOxjzGqTWVwfHUSgz0bpyMRRd8WBEXA34uMt81IWf7vJiMzHZcPIaL3Hp9kvxDWJePtSHS9y28MN9MBomNuaVkI83BAXFmpSf_42duY_iLJ4BZMm8b1B0hYy09cVPaKFIzs4m78l9efNdQNfn2"/><span class="font-headline-md text-headline-md tracking-tight text-primary font-bold hidden xs:inline-block">PawPulse</span><span class="font-headline-md text-headline-md tracking-tight text-primary font-bold xs:hidden">PP</span><span class="font-headline-sm text-headline-sm text-on-surface-variant font-medium ml-1 hidden sm:inline-block">• Vet 24/7</span></div><div class="flex items-center gap-space-xs"><button aria-label="Cambiar mascota o ciudad" class="flex items-center gap-1.5 h-9 px-3 rounded-full bg-surface-container hover:bg-surface-container-high transition-colors" type="button"><span class="material-symbols-outlined text-primary text-[18px]">pets</span><span class="font-label-sm text-label-sm text-on-surface truncate max-w-[84px]">Max 🐕</span><span class="material-symbols-outlined text-outline text-[16px]">expand_more</span></button><button aria-label="Notificaciones" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-on-surface hover:bg-surface-container/60 transition-colors" type="button"><span class="material-symbols-outlined text-[24px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-tertiary ring-2 ring-surface"></span></button><div class="flex items-center pl-1"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-container/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAyUKF7TSNQN624Gtw9LwCzKVY9nX8Npt8grlzWqLahXhtkCGgQgRZGbMioo9vlj4T842Z8gZ-X2nrn8cDgoFSfAqXeu6RJoAsFT7A4VlzVmczc3EBYZBQk3lm6VCLJP7XEYRF-Dg9rDnA6if8vIh9nFcEGYjek_naVJ4TOHYzQogUS7w-X59EyI1zL2WSQSL7x8ZS2z3e3gkjAXHe9YLq7M_Q8u1-eyiPDDoiXoy2WhFGIvJPyH733Hg"/></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface flex-1"><div class="flex flex-col w-full">
+<!-- Emergency Live Dispatch Alert Ribbon -->
+<div class="px-gutter pt-space-xs pb-space-sm">
+<div class="relative overflow-hidden rounded-lg bg-tertiary text-on-tertiary p-space-md shadow-md">
+<div class="absolute -right-6 -bottom-6 w-28 h-28 rounded-full bg-tertiary-container/30 blur-xl pointer-events-none"></div>
+<!-- Live Indicator Header -->
+<div class="flex items-center justify-between gap-space-xs mb-space-xs">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-tertiary-container/35 backdrop-blur-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-surface-bright opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-surface-bright"></span>
+</span>
+<span class="font-label-sm text-label-sm tracking-wide uppercase font-bold text-on-tertiary">Triaje en tiempo real</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary-fixed font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">timer</span>
+          Espera &lt; 2 min
+        </span>
+</div>
+<!-- Main Emergency Headings -->
+<h1 class="font-headline-md text-headline-md tracking-tight font-bold text-on-tertiary leading-snug">
+        Urgencias Veterinarias 24 Horas
+      </h1>
+<p class="font-body-sm text-body-sm text-tertiary-fixed mt-1 flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-primary-fixed">verified_user</span>
+        14 Veterinarios de guardia activos ahora
+      </p>
+<!-- Instant Teleconsult SOS Card -->
+<div class="mt-space-md p-space-md rounded-DEFAULT bg-surface text-on-surface shadow-sm">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center shrink-0 text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">videocam</span>
+</div>
+<div class="min-w-0 flex-1">
+<div class="flex items-center gap-2">
+<span class="font-label-md text-label-md text-on-surface font-bold">Teleconsulta Inmediata SOS</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold">Prioritario</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Videollamada en menos de 3 minutos con un médico veterinario colegiado.
+            </p>
+</div>
+</div>
+<!-- Big Emergency Call Action -->
+<button class="mt-space-md w-full h-13 py-3.5 px-space-md rounded-full bg-tertiary text-on-tertiary font-label-lg text-label-lg flex items-center justify-center gap-2.5 shadow-md active:scale-[0.98] transition-transform" id="sosEmergencyBtn" type="button">
+<span class="material-symbols-outlined text-[22px] animate-bounce">call</span>
+<span>Iniciar Llamada de Urgencia</span>
+</button>
+<div class="mt-2 text-center">
+<span class="font-label-sm text-label-sm text-primary font-semibold">
+            ✓ 100% Gratuito en Plan Care de Max
+          </span>
+</div>
+</div>
+</div>
+</div>
+<!-- Specialized Triage / Rapid Symptom Picker -->
+<section class="px-gutter py-space-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface">
+          Triaje Rápido por Síntoma
+        </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Selecciona el estado principal de tu mascota</p>
+</div>
+<span class="px-2 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-on-surface-variant">Paso 1 de 2</span>
+</div>
+<!-- Symptom Grid with visual feedback -->
+<div class="grid grid-cols-2 gap-space-xs mt-space-sm" id="symptomGrid">
+<!-- Item 1 -->
+<button class="symptom-btn flex flex-col items-start p-space-sm rounded-DEFAULT bg-surface-container text-left transition-colors active:scale-[0.99] group" data-symptom="vomit" type="button">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface mb-2">
+<span class="material-symbols-outlined text-[20px] text-tertiary">warning</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface group-hover:text-primary">Vómitos / Intoxicación</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 line-clamp-1">Salivación o ingestión</span>
+</button>
+<!-- Item 2 -->
+<button class="symptom-btn flex flex-col items-start p-space-sm rounded-DEFAULT bg-surface-container text-left transition-colors active:scale-[0.99] group" data-symptom="breathing" type="button">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface mb-2">
+<span class="material-symbols-outlined text-[20px] text-tertiary">air</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface group-hover:text-primary">Dificultad respiratoria</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 line-clamp-1">Jadeo o ahogo</span>
+</button>
+<!-- Item 3 -->
+<button class="symptom-btn flex flex-col items-start p-space-sm rounded-DEFAULT bg-surface-container text-left transition-colors active:scale-[0.99] group" data-symptom="wounds" type="button">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface mb-2">
+<span class="material-symbols-outlined text-[20px] text-secondary">healing</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface group-hover:text-primary">Cortes o heridas</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 line-clamp-1">Hemorragias o mordeduras</span>
+</button>
+<!-- Item 4 -->
+<button class="symptom-btn flex flex-col items-start p-space-sm rounded-DEFAULT bg-surface-container text-left transition-colors active:scale-[0.99] group" data-symptom="lethargy" type="button">
+<div class="w-8 h-8 rounded-full bg-surface-container-highest flex items-center justify-center text-on-surface mb-2">
+<span class="material-symbols-outlined text-[20px] text-secondary">bedtime</span>
+</div>
+<span class="font-label-md text-label-md font-bold text-on-surface group-hover:text-primary">Letargo repentino</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 line-clamp-1">Inmovilidad o desmayo</span>
+</button>
+</div>
+<!-- Dynamic Triage Advisory Toast (revealed on selection) -->
+<div class="hidden mt-space-sm p-space-sm rounded-DEFAULT bg-surface-container-high text-on-surface" id="triageNotice">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">medical_services</span>
+<span class="font-body-sm text-body-sm font-medium" id="triageNoticeText">Recomendado traslado directo a hospital por sospecha de toxinas.</span>
+</div>
+</div>
+</section>
+<!-- Nearest 24h Hospitals & Physical Clinics -->
+<section class="px-gutter py-space-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface">
+          Hospitales Físicos Cercanos (24h)
+        </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Atención presencial con quirófano activo</p>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface" type="button">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+<!-- Map View Teaser -->
+<div class="relative w-full h-36 rounded-lg overflow-hidden shadow-sm my-space-xs bg-surface-container-highest">
+<div class="w-full h-full bg-cover bg-center" data-location="Hospital Veterinario Central, Calle Mayor 45, Madrid" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAgTDMY_0RqAPd4mB6e4nn0755CtTC8OQbEQYxitmXQ1QrC0RT8_1E5eB0JF8LxivEjQ5j2hdNb-Oi2JiIhTWMiPFSMRnSz8GJMogvU8GtdicepHtun-ox34sZ_Stat8S80dhlTgx_6Hj-KoW0oE5-vWKoFuv8v-sH5v9qFyPj-Hma9dwddwzUi6LJJk9PZ4HYo0N3k1Q4EwwTLpBiwOPoikdia-I-dVJyqa1TZqFwtVjYtpJPgWb9QFQ')"></div>
+<!-- Overlaid Map Micro-card -->
+<div class="absolute bottom-2 left-2 right-2 px-3 py-2 rounded-full bg-surface/90 backdrop-blur-md flex items-center justify-between text-on-surface shadow-sm">
+<div class="flex items-center gap-1.5 min-w-0">
+<span class="material-symbols-outlined text-tertiary text-[18px]" style="font-variation-settings: 'FILL' 1;">emergency_home</span>
+<span class="font-label-sm text-label-sm font-bold truncate">3 centros de urgencias a &lt; 5 km</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-semibold shrink-0">Ver mapa expandido</span>
+</div>
+</div>
+<!-- Hospital Cards Stack -->
+<div class="flex flex-col gap-space-sm mt-space-sm">
+<!-- Hospital 1 -->
+<div class="p-space-md rounded-DEFAULT bg-surface-container text-on-surface shadow-sm">
+<div class="flex items-start justify-between gap-space-xs">
+<div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold">Abierto 24/7</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">1.2 km • 8 min en coche</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">
+              Hospital Veterinario Central 24h
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[16px] text-outline">location_on</span>
+              Calle Mayor 45, Centro
+            </p>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-sm shrink-0">
+<span class="material-symbols-outlined text-primary text-[24px]">local_hospital</span>
+</div>
+</div>
+<!-- Capability Badges -->
+<div class="flex items-center gap-1.5 flex-wrap mt-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm">UCI Neonatal &amp; Adulto</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm">Laboratorio Inmediato</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm">TAC / Rayos X</span>
+</div>
+<!-- Actions -->
+<div class="grid grid-cols-2 gap-space-xs mt-space-md">
+<a class="h-11 px-3 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center gap-1.5 active:bg-surface-container-high transition-colors shadow-sm" href="tel:900112233">
+<span class="material-symbols-outlined text-[18px] text-primary">phone</span>
+<span>Llamar Directo</span>
+</a>
+<button class="h-11 px-3 rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm active:bg-on-primary-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">near_me</span>
+<span>GPS y Ruta</span>
+</button>
+</div>
+</div>
+<!-- Hospital 2 -->
+<div class="p-space-md rounded-DEFAULT bg-surface-container text-on-surface shadow-sm">
+<div class="flex items-start justify-between gap-space-xs">
+<div>
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold">Guardia Activa</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">2.8 km • 14 min en coche</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mt-1">
+              Clínica Veterinaria Urgencias Norte
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[16px] text-outline">location_on</span>
+              Avenida Ilustración 88
+            </p>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-sm shrink-0">
+<span class="material-symbols-outlined text-secondary text-[24px]">healing</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+          Especialistas en cirugía de urgencia y traumatología canina/felina.
+        </p>
+<!-- Actions -->
+<div class="grid grid-cols-2 gap-space-xs mt-space-md">
+<a class="col-span-2 h-11 px-3 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md flex items-center justify-center gap-1.5 active:bg-surface-container-high transition-colors shadow-sm" href="tel:900445566">
+<span class="material-symbols-outlined text-[18px] text-secondary">call</span>
+<span>Llamar a Clínica Norte</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Scheduled Specialist Appointment Section -->
+<section class="px-gutter py-space-sm mb-space-md">
+<div class="flex items-center justify-between mb-space-xs">
+<div>
+<h2 class="font-headline-sm text-headline-sm font-bold text-on-surface">
+          Consulta con Especialistas
+        </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Citas programadas para seguimiento y diagnóstico</p>
+</div>
+<a class="font-label-sm text-label-sm text-primary font-bold" href="#">Ver todos</a>
+</div>
+<!-- Specialty Pill Tabs (Horizontal Scrolling) -->
+<div class="flex items-center gap-2 overflow-x-auto py-2 no-scrollbar">
+<button class="spec-tab shrink-0 px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md font-semibold" type="button">
+        Medicina General
+      </button>
+<button class="spec-tab shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md font-semibold" type="button">
+        Dermatología
+      </button>
+<button class="spec-tab shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md font-semibold" type="button">
+        Oftalmología
+      </button>
+<button class="spec-tab shrink-0 px-4 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md font-semibold" type="button">
+        Vacunación
+      </button>
+</div>
+<!-- Doctor Showcase Card -->
+<div class="mt-space-xs p-space-md rounded-lg bg-surface-container text-on-surface shadow-sm">
+<div class="flex items-start gap-space-sm">
+<!-- Doctor Avatar placeholder with thorough prompt -->
+<div class="relative w-16 h-16 rounded-full overflow-hidden shrink-0 shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Warm and welcoming portrait of Dr. Elena Ramos, a senior female veterinarian in mint green clinical scrubs with a soft stethoscope around her neck, smiling warmly at the camera in a modern sunlit animal clinic, high-end mobile photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxnOXbWiYzZahpeEMk8O7-VKG2IPM0XifjeY1CDQuiWuf7hzXpoLGrzF_3xDVCwY6S2zMOrRnOCdIcHfqr4azHx7NtO8__HViDyqwish3EHpJAo9rc27_lcjSG378v1aMzkqjE-0Bl9UtYP7J47Ri6oV6TxvLeL15S8RMzCN3hIQ2hxCzLcZNfcPR21M_YOyprlkSTuB1CGioSq42i-Je5mo5xOP365MmKTmbbcdfzKN0lwwXPdKgS9w"/>
+<span class="absolute bottom-0 right-0 w-4 h-4 rounded-full bg-primary ring-2 ring-surface"></span>
+</div>
+<div class="min-w-0 flex-1">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface truncate">
+              Dra. Elena Ramos
+            </h3>
+<span class="font-label-sm text-label-sm text-secondary font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+              4.9 (128)
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Veterinaria Senior • 12 años exp.
+          </p>
+<div class="flex items-center gap-2 mt-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-on-surface font-label-sm text-label-sm">
+              Col. Oficial Nº 4812
+            </span>
+<span class="font-label-sm text-label-sm text-primary font-bold">
+              Tarifa: 35 €
+            </span>
+</div>
+</div>
+</div>
+<!-- Slot Selector Box -->
+<div class="mt-space-md p-space-sm rounded-DEFAULT bg-surface text-on-surface flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">event_available</span>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Próxima cita disponible</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">Hoy a las 16:30 hrs</span>
+</div>
+</div>
+<button class="h-10 px-4 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold active:bg-on-primary-container shadow-sm transition-transform active:scale-95" id="bookAppointmentBtn" type="button">
+          Reservar Cita
+        </button>
+</div>
+<!-- Trust Badges Bar -->
+<div class="grid grid-cols-3 gap-2 mt-space-sm pt-space-xs text-center">
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Colegiada</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[18px]">lock_clock</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Historial Seguro</span>
+</div>
+<div class="flex flex-col items-center">
+<span class="material-symbols-outlined text-primary text-[18px]">receipt_long</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">Factura Seguros</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Modal / Confirmation Backdrop Sheet (Teleconsult Initiation) -->
+<div class="hidden fixed inset-0 z-50 bg-on-surface/60 backdrop-blur-sm flex items-end justify-center p-4 pb-safe" id="sosModal">
+<div class="w-full max-w-sm rounded-lg bg-surface text-on-surface p-space-md shadow-xl flex flex-col items-center text-center">
+<div class="w-16 h-16 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center mb-space-sm animate-pulse">
+<span class="material-symbols-outlined text-[32px]">ring_volume</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm font-bold text-on-surface">Conectando con Triaje SOS</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+        Buscando al veterinario de guardia más rápido para Max. Por favor, mantén la cámara lista.
+      </p>
+<div class="w-full bg-surface-container rounded-full h-2 my-space-md overflow-hidden">
+<div class="bg-tertiary h-full w-2/3 animate-pulse"></div>
+</div>
+<div class="flex gap-space-xs w-full">
+<button class="w-full h-11 rounded-full bg-surface-container text-on-surface font-label-md text-label-md font-bold" id="cancelSosBtn" type="button">
+          Cancelar
+        </button>
+<button class="w-full h-11 rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold" type="button">
+          Entrar a Sala
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    // Triage Symptom Selection Logic
+    const symptomBtns = document.querySelectorAll('.symptom-btn');
+    const noticeBox = document.getElementById('triageNotice');
+    const noticeText = document.getElementById('triageNoticeText');
+
+    const symptomAdvices = {
+      vomit: 'Prioridad Alta: No suministres alimentos ni agua por 1 hora. Conecta con videollamada para descartar ingestión de tóxicos.',
+      breathing: 'EMERGENCIA MÁXIMA: Si hay lengua morada o jadeo extremo, acude inmediatamente al hospital más cercano sin demora.',
+      wounds: 'Prioridad Media-Alta: Aplica presión suave con gasa estéril limpia. Evita apósitos humanos con medicación.',
+      lethargy: 'Evaluación Urgente: Comprueba si responde a estímulos visuales o su nombre antes de iniciar la teleconsulta.'
+    };
+
+    symptomBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Toggle selected styling
+        symptomBtns.forEach(b => {
+          b.classList.remove('bg-primary-fixed', 'text-on-primary-fixed');
+          b.classList.add('bg-surface-container', 'text-on-surface');
+        });
+        btn.classList.remove('bg-surface-container', 'text-on-surface');
+        btn.classList.add('bg-primary-fixed', 'text-on-primary-fixed');
+
+        const symptomKey = btn.dataset.symptom;
+        if (symptomAdvices[symptomKey]) {
+          noticeText.textContent = symptomAdvices[symptomKey];
+          noticeBox.classList.remove('hidden');
+        }
+      });
+    });
+
+    // Specialty Tabs Toggle
+    const specTabs = document.querySelectorAll('.spec-tab');
+    specTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        specTabs.forEach(t => {
+          t.classList.remove('bg-primary', 'text-on-primary');
+          t.classList.add('bg-surface-container', 'text-on-surface');
+        });
+        tab.classList.remove('bg-surface-container', 'text-on-surface');
+        tab.classList.add('bg-primary', 'text-on-primary');
+      });
+    });
+
+    // Emergency Modal Handling
+    const sosBtn = document.getElementById('sosEmergencyBtn');
+    const sosModal = document.getElementById('sosModal');
+    const cancelSosBtn = document.getElementById('cancelSosBtn');
+
+    if (sosBtn && sosModal && cancelSosBtn) {
+      sosBtn.addEventListener('click', () => {
+        sosModal.classList.remove('hidden');
+      });
+
+      cancelSosBtn.addEventListener('click', () => {
+        sosModal.classList.add('hidden');
+      });
+    }
+
+    // Booking Button Micro-feedback
+    const bookBtn = document.getElementById('bookAppointmentBtn');
+    if (bookBtn) {
+      bookBtn.addEventListener('click', () => {
+        const originalText = bookBtn.textContent;
+        bookBtn.textContent = '¡Reservada!';
+        bookBtn.classList.remove('bg-primary');
+        bookBtn.classList.add('bg-surface-container-highest', 'text-on-surface');
+        setTimeout(() => {
+          bookBtn.textContent = originalText;
+          bookBtn.classList.remove('bg-surface-container-highest', 'text-on-surface');
+          bookBtn.classList.add('bg-primary', 'text-on-primary');
+        }, 2200);
+      });
+    }
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_20px_rgba(19,27,46,0.06)]" data-active-classes="text-primary bg-primary-fixed/35 font-bold"><div class="flex items-center justify-around h-16 px-gutter"><a class="group flex flex-col items-center justify-center min-w-[64px] min-h-[44px] px-3 py-1 rounded-full text-on-surface-variant transition-colors hover:text-on-surface" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm mt-0.5">Inicio</span></a><a class="group flex flex-col items-center justify-center min-w-[64px] min-h-[44px] px-3 py-1 rounded-full text-on-surface-variant transition-colors hover:text-on-surface" data-path="tienda" href="#"><span class="material-symbols-outlined text-[22px]">storefront</span><span class="font-label-sm text-label-sm mt-0.5">Tienda</span></a><a class="group flex flex-col items-center justify-center min-w-[64px] min-h-[44px] px-3 py-1 rounded-full text-on-surface-variant transition-colors hover:text-on-surface" data-path="vet-24-7" href="#"><div class="relative flex items-center justify-center"><span class="material-symbols-outlined text-[22px]">stethoscope</span><span class="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-tertiary animate-pulse ring-2 ring-surface"></span></div><span class="font-label-sm text-label-sm mt-0.5">Vet 24/7</span></a><a class="group flex flex-col items-center justify-center min-w-[64px] min-h-[44px] px-3 py-1 rounded-full text-on-surface-variant transition-colors hover:text-on-surface" data-path="mi-mascota" href="#"><span class="material-symbols-outlined text-[22px]">health_and_safety</span><span class="font-label-sm text-label-sm mt-0.5">Mi Mascota</span></a></div></nav></body></html>
